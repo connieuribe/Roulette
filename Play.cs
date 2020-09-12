@@ -102,6 +102,7 @@ namespace Roulette
             }
             return null;
         }
+        //The user picks an option to start playing
         public static int LetsPlay()
         {
             Console.WriteLine("\n\t\t\tOption 1: Straight Number" +

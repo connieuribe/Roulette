@@ -8,7 +8,6 @@ namespace Roulette
      */
     class Program
     {
-        
         //switch case to ask the user what bet they want.
         static void Main(string[] args)
         {
@@ -22,7 +21,6 @@ namespace Roulette
                 Console.WriteLine("\n\nThe winning number is: " + winningNumber + " " + winningColor);
                 if (bettingNumbers.Length == 1)//straight number, red or black
                 {
-
                     if (bettingNumbers[0] == winningNumber)
                     {
                         Console.WriteLine("Congratulations you won $35!");

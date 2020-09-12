@@ -21,7 +21,7 @@ namespace Roulette
         //1. just a number
         public static void StraightBet()
         {
-            //Alredy handled
+            //Alredy handled in the play class
         }
         //2.
         public static int[] EvenOddBet(bool evenOdd)
